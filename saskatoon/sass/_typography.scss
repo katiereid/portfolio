@@ -1,0 +1,50 @@
+@import "typography/_manifest";
+
+header {
+  font-family: $main-font;
+  font-size: 2.25em;
+}
+
+.logo {
+  font-family: $logo-font;
+  font-size: 3.375em;
+}
+
+.sectionHeader {
+  font-family: $logo-font;
+  font-size: 3.375em;
+  text-align: center;
+}
+
+nav {
+  font-family: $secondary-font;
+  font-style: italic;
+  text-decoration: underline;
+}
+
+main {
+  font-family: $main-font;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.projectList {
+  font-size: .818em;
+}
+
+table{
+  font-size: 1em;
+}
+
+caption {
+  font-size: 1.2em;
+}
+
+.about {
+  font-size: 1em;
+}
+
+.contactIcons {
+  font-size: .818em;
+}
+

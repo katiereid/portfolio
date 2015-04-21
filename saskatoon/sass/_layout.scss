@@ -1,0 +1,203 @@
+@import "layout/_manifest";
+
+////header layout
+
+header {
+   @include outer-container(100%)
+}
+
+.b-img {
+  @include span-columns(12);
+  position: relative;
+  display: cover;
+  z-index: -100;
+  margin-right: 0;
+}
+
+.description {
+  @include span-columns(8 of 12);
+  position: absolute;
+  top: 1em;
+  left: 3em;
+  z-index: 1;
+}
+
+.description li {
+  margin: .8em;
+}
+
+.navBar {
+  width: 15%;
+  position: fixed;
+  top: 2.5em;
+  right: -.3em;
+  float: right;
+  z-index: 2;
+}
+
+.navItem {
+  width: 100%;
+  transform: skew(-20deg, 0deg);
+  margin-top: .2em;
+  text-align: center;
+  padding: .2em;
+  padding-right: .5em;
+}
+
+.hidden {
+  display: none;
+}
+
+//headers on project page layout
+
+.projectHeader {
+  background-image: url(../../portfolioimageshort.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.description-projects {
+  @include span-columns(8 of 12);
+}
+
+.navBar-projects {
+  position: fixed;
+  top: 2.5em;
+  right: -.3em;
+  float: right;
+}
+
+.navItem-projects {
+  width: 100%;
+  transform: skew(-20deg, 0deg);
+  text-align: center;
+  padding: .2em;
+  padding-right: .5em;
+}
+
+
+////project section layout
+
+.projectImg {
+  @include span-columns(5 of 5);
+  display: inline;
+}
+
+.projectDescribe {
+  @include span-columns (5);
+  padding: .8em;
+  margin-bottom: .8em;
+  border-radius: 2px;
+  height: 23em;
+}
+
+.projSection {
+  padding: 1em;
+  padding-left: 2em;
+}
+
+.projectList {
+  @include outer-container(90%);
+  padding-left: 8em;
+}
+
+.projectPage {
+  @include outer-container(75%);
+  padding: 1em;
+}
+
+.desktopMobileImg {
+  @include span-columns(4);
+}
+
+////about & skills section layout
+
+.aboutSection {
+  @include outer-container(70%);
+}
+
+table {
+  @include span-columns(6);
+  margin-top: .5em;
+  padding: 1em;
+  display:inline;
+  border-right: 1px solid black;
+}
+
+caption {
+  padding: .3em;
+  margin: .3em;
+}
+
+.skill {
+  @include span-columns(1 of 6);
+  padding: 0.4em;
+}
+
+.skill10 {
+  @include span-columns(5 of 6);
+}
+
+.skill9 {
+  @include span-columns(4 of 6);
+}
+
+.skill8 {
+  @include span-columns(3 of 6);
+}
+
+.skill7 {
+  @include span-columns(2 of 6);
+}
+
+.about {
+  @include span-columns(6);
+  display: inline;
+  margin-right: 0;
+  padding: .5em;
+}
+
+.headshot {
+  @include span-columns(3 of 7);
+  float: none;
+  display: inline;
+}
+
+////contact section layout
+.contactSection {
+  @include outer-container(100%);
+  padding: 2em;
+}
+
+.contactContent {
+  @include span-columns(8);
+  @include shift(2 of 8);
+  padding: 5em;
+}
+
+.icons {
+  @include span-columns(2 of 8);
+  display:inline;
+  margin-left: 2em;
+}
+
+///footer layout
+
+footer {
+  @include outer-container(50%);
+  text-align: center;
+}
+
+.allSocial {
+  @include span-columns(12);
+  @include shift(1.5 of 12);
+  display: block;
+}
+
+.socialIcons {
+  @include span-columns(2 of 12);
+  margin-left: .8em;
+  padding: .8em;
+}
+
+

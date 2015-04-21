@@ -1,0 +1,14 @@
+//import normalize
+@import "normalize";
+//import bourbon and neat
+@import "bourbon/app/assets/stylesheets/_bourbon";
+@import "neat/app/assets/stylesheets/_neat";
+//import all other loose scss files
+@import "colors";
+@import "typography";
+@import "layout";
+@import "modules";
+@import "ui_patterns";
+@import "buttons";
+@import "forms";
+

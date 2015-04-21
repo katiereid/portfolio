@@ -1,0 +1,26 @@
+{
+  "name": "saskatoon",
+  "homepage": "https://github.com/katiereid/saskatoon",
+  "authors": [
+    "Katie Reid <katie.irene.reid@gmail.com>"
+  ],
+  "description": "amazinggg file structure for Sass",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "_release": "918363653e",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "918363653e81ed5de16e5b9ebe95b0ba42fea715"
+  },
+  "_source": "git://github.com/katiereid/saskatoon.git",
+  "_target": "*",
+  "_originalSource": "saskatoon",
+  "_direct": true
+}

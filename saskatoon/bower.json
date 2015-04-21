@@ -1,0 +1,17 @@
+{
+  "name": "saskatoon",
+  "version": "1.0.1",
+  "homepage": "https://github.com/katiereid/saskatoon",
+  "authors": [
+    "Katie Reid <katie.irene.reid@gmail.com>"
+  ],
+  "description": "amazinggg file structure for Sass",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
