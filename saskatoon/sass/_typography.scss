@@ -2,49 +2,50 @@
 
 header {
   font-family: $main-font;
-  font-size: 2.25em;
+  font-size: $large-font;
 }
 
 .logo {
   font-family: $logo-font;
-  font-size: 3.375em;
+  font-size: $large-font;
 }
 
 .sectionHeader {
   font-family: $logo-font;
-  font-size: 3.375em;
+  font-size: $largest-font;
   text-align: center;
 }
 
 nav {
   font-family: $secondary-font;
+  font-size: 1em;
   font-style: italic;
   text-decoration: underline;
 }
 
 main {
   font-family: $main-font;
-  font-size: 1.2em;
+  font-size: $small-font;
   text-align: center;
 }
 
 .projectList {
-  font-size: .818em;
+  font-size: $small-font;
 }
 
 table{
-  font-size: 1em;
+  font-size: $regular-font;
 }
 
 caption {
-  font-size: 1.2em;
+  font-size: $regular-font;
 }
 
 .about {
-  font-size: 1em;
+  font-size: 1.4em;
 }
 
 .contactIcons {
-  font-size: .818em;
+  font-size: $regular-font;
 }
 

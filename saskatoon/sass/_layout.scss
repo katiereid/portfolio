@@ -3,31 +3,23 @@
 ////header layout
 
 header {
-   @include outer-container(100%)
-}
-
-.b-img {
-  @include span-columns(12);
-  position: relative;
-  display: cover;
-  z-index: -100;
-  margin-right: 0;
+  @include outer-container(100%);
+  background-image: url(../../images/portfolioimage.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .description {
-  @include span-columns(8 of 12);
-  position: absolute;
-  top: 1em;
-  left: 3em;
-  z-index: 1;
+  @include span-columns(8);
+  @include shift(1 of 12);
+  margin: 3em;
 }
 
 .description li {
-  margin: .8em;
+  margin-top: .8em;
 }
 
 .navBar {
-  width: 15%;
   position: fixed;
   top: 2.5em;
   right: -.3em;
@@ -83,22 +75,29 @@ header {
   display: inline;
 }
 
-.projectDescribe {
+.projectDescribeBox {
   @include span-columns (5);
-  padding: .8em;
   margin-bottom: .8em;
   border-radius: 2px;
   height: 23em;
 }
 
+.projectDescribe {
+ margin: 1em;
+}
+
+.projectDescribeText {
+  display: inline-block;
+  margin: 1em;
+}
+
 .projSection {
   padding: 1em;
-  padding-left: 2em;
 }
 
 .projectList {
   @include outer-container(90%);
-  padding-left: 8em;
+  @include shift(1.3 of 12);
 }
 
 .projectPage {
@@ -113,7 +112,7 @@ header {
 ////about & skills section layout
 
 .aboutSection {
-  @include outer-container(70%);
+  @include outer-container(75%);
 }
 
 table {
@@ -171,14 +170,14 @@ caption {
 
 .contactContent {
   @include span-columns(8);
-  @include shift(2 of 8);
-  padding: 5em;
+  @include shift(3.3 of 12);
+  padding: 4em;
 }
 
 .icons {
   @include span-columns(2 of 8);
   display:inline;
-  margin-left: 2em;
+  margin: 2em;
 }
 
 ///footer layout
