@@ -3,6 +3,9 @@
 header {
   font-family: $main-font;
   font-size: $large-font;
+  @media screen and (max-width: $breakpoint) {
+    font-size: $small-font;
+  }
 }
 
 .logo {
@@ -14,6 +17,9 @@ header {
   font-family: $logo-font;
   font-size: $largest-font;
   text-align: center;
+  @media screen and (max-width: $breakpoint) {
+    font-size: $large-font;
+  }
 }
 
 nav {
@@ -27,22 +33,37 @@ main {
   font-family: $main-font;
   font-size: $small-font;
   text-align: center;
+  @media screen and (max-width: $breakpoint) {
+    font-size: $smallest-font;
+  }
 }
 
 .projectList {
   font-size: $small-font;
+  @media screen and (max-width: $breakpoint) {
+    font-size: $smallest-font;
+  }
 }
 
-table{
+table {
   font-size: $regular-font;
+  @media screen and (max-width: $breakpoint) {
+    font-size: $smallest-font;
+  }
 }
 
 caption {
   font-size: $regular-font;
+  @media screen and (max-width: $breakpoint) {
+    font-size: $small-font;
+  }
 }
 
 .about {
   font-size: 1.4em;
+  @media screen and (max-width: $breakpoint) {
+    font-size: $smallest-font;
+  }
 }
 
 .contactIcons {
